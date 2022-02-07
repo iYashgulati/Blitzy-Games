@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width='device-width', initial-scale=1.0">
+    <link rel="icon" href="/Images/favicon.png" type="image/png">
+    <link rel="apple-touch-icon" href="touch-icon-iphone.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon.png">
+    <link rel="stylesheet" href="style.css">
+ 
+    <title>Blitzy Games</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4ae8395896.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+    <!-- Navbar -->
+        
+    <div class="navbar">
+        <nav class="nav">
+            <div class="logo">
+
+                <a href="#">
+                    <img src="Images/logocopy.png" alt="Blitzy Games Logo">
+                </a>
+            </div>
+
+            <div class="links">
+
+                <li><a href="#about" onclick="closeNav()">
+                    About
+                    <div class="hover-line"></div>
+                </a></li>
+
+                
+                    <li><a href="#games" onclick="closeNav()">
+                        Games
+                        <div class="hover-line"></div>
+                    </a></li>
+
+                <li><a href="#blog" onclick="closeNav()">
+                    Blog
+                    <div class="hover-line"></div>
+                </a></li>
+<!-- 
+                <li class="checkboxLI">
+                    <div>
+                        <input type="checkbox" class="checkbox" id="chk" />
+                        <label class="label" for="chk">
+                            <i class="fas fa-moon"></i>
+                            <i class="fas fa-sun"></i>
+                            <div class="ball"></div>
+                        </label>
+                    </div>
+                </li> -->
+
+                
+
+            </div>
+
+            <div class="menu" onclick="menuToggle()">
+                <div class="menu-line-one"></div>
+                <div class="menu-line-two"></div>
+                <div class="menu-line-three"></div>
+            </div>
+        </nav>      
+    </div>
+
+
+    <!-- Home Section -->
+
+    <section class="section" id="home">
+        <div class="overlay"></div>
+        <div id="text"></div> 
+
+    </section>
+
+  
+    <!-- Games Section -->
+
+    <section class="section" id="about">
+        <div class="about-container">
+            <div class="about-left">
+                <div class="about-left-text">
+                    <h2 class="blitzy-text">Blitzy Games</h2>
+                    <h1 class="blitzy-headline">Lorem ipsum dolor sit amet </h1>
+                    
+                    <p class="blitzy-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+
+                    <div class="about-icons">
+
+                        <div class="about-sentence">
+
+                            <i class="fas fa-rocket"></i>
+
+                            <h3 class="about-sentence-words">Lorem ipsum dolor sit amet, consectetur adipiscing </h3>
+
+                        </div>
+
+
+                        <div class="about-sentence">
+                                                        
+                            <i class="fas fa-dice-d20"></i>
+
+                            <h3 class="about-sentence-words">Never seen before concepts that stand out </h3>
+
+                        </div>
+                        <div class="about-sentence">
+                                                        
+                            <i class="fas fa-gamepad"></i>
+
+                            <h3 class="about-sentence-words">Fun and exciting gameplay that excites all users </h3>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-right">
+                <img src="https://d33wubrfki0l68.cloudfront.net/27c3c64acdb30a593425ebf6f1815b15e9d2f254/aef51/images/ninja-white.png" class="ninja-white">
+            </div>
+        </div>
+        
+    </section>
+    
+    <!-- About Section -->
+
+    <section class="section" id="games">
+
+        <div class="games-container">
+            <div class="games-left">  
+
+                <div class="games-list">
+                    <a href="#">
+                        <div class="game-info">
+                            <span class="game-info-hashtag">#</span>
+                            <span class="game-info-number">1</span>
+                            <h1 class="game-info-title">Coming Soon</h1>
+                        </div>
+                    </a>
+                    
+                    <a href="#">
+                        <div class="game-info">
+                            <span class="game-info-hashtag">#</span>
+                            <span class="game-info-number">2</span>
+                            <h1 class="game-info-title">Coming Soon</h1>
+                        </div>
+                    </a>                        
+
+                    <a href="#">
+                        <div class="game-info">
+                            <span class="game-info-hashtag">#</span>
+                            <span class="game-info-number">3</span>
+                            <h1 class="game-info-title">Coming Soon</h1>
+                        </div>
+                    </a>
+
+
+                </div>
+                
+                <div class="games-circ">
+                    <div class="games-circ-one"></div>
+                    <div class="games-circ-two"></div>
+                    <div class="games-circ-four"></div>
+                    <div class="games-circ-three"></div>
+                </div>  
+
+                
+            </div>
+            <div class="games-right">
+                <div class="games-right-text">
+                    <h2 class="games-text">Our Games</h2>
+                    <h1 class="games-headline">Lorem ipsum dolor sit amet</h1>
+                    <p class="games-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+
+                    <div class="games-icons">
+
+                        <div class="games-sentence">
+
+                            <i class="fas fa-rocket"></i>
+
+                            <h3 class="games-sentence-words">Lorem ipsum dolor sit amet, consectetur adipiscing </h3>
+
+                        </div>
+
+
+                        <div class="games-sentence">
+                                                        
+                            <i class="fas fa-dice-d20"></i>
+
+                            <h3 class="games-sentence-words">Lorem ipsum dolor sit amet, consectetur adipiscing </h3>
+
+                        </div>
+                        <div class="games-sentence">
+                                                        
+                            <i class="fas fa-gamepad"></i>
+
+                            <h3 class="games-sentence-words">Lorem ipsum dolor sit amet, consectetur adipiscing </h3>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+            
+    </section>
+
+    <!-- Blog Section -->
+
+    <section class="section" id="blog">
+        <div class="blog-container">
+            <div class="blog-left">
+                <div class="blog-text">
+                    <h2 class="blog-title">Announcing Blitzy Blog!</h2>
+                    <h1 class="blog-headline">Lorem ipsum dolor sit amet</h1>
+                    <p class="blog-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat..</p>
+
+                    <div class="blog-icons">
+
+                        <div class="blog-sentence">
+
+                            <i class="fas fa-rocket"></i>
+
+                            <h3 class="blog-sentence-words">Lorem ipsum dolor sit amet, consectetur adipiscing </h3>
+
+                        </div>
+
+
+                        <div class="blog-sentence">
+                                                        
+                            <i class="fas fa-dice-d20"></i>
+
+                            <h3 class="blog-sentence-words">Lorem ipsum dolor sit amet, con sectetur adipiscing </h3>
+
+                        </div>
+                        <div class="blog-sentence">
+                                                        
+                            <i class="fas fa-gamepad"></i>
+
+                            <h3 class="blog-sentence-words">Lorem ipsum dolor sit amet, consectetur adipiscing </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="blog-right">  
+                <a href="#">  
+                    <div class="blog-post">
+                        <div class="blog-img">
+                            <img src="https://d33wubrfki0l68.cloudfront.net/471dfd788ae470867d321fdd99706fb6dc199027/a7df6/images/stay-tuned.png" alt="stay-tuned">
+                        </div>
+                        <div class="blog-text-post">
+                            <h1 class="blog-post-headline">Stay Tuned!</h1>
+                            <h2 class="blog-followup">Awesome Stories and insights are coming soon!</h2>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#">  
+                    <div class="blog-post">
+                        <div class="blog-img">
+                            <img src="https://d33wubrfki0l68.cloudfront.net/471dfd788ae470867d321fdd99706fb6dc199027/a7df6/images/stay-tuned.png" alt="stay-tuned">
+                        </div>
+                        <div class="blog-text-post">
+                            <h1 class="blog-post-headline">Stay Tuned!</h1>
+                            <h2 class="blog-followup">Awesome Stories and insights are coming soon!</h2>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <div class="footer-angle"></div>
+    <section id="footer">
+        <ul class="footer-inks">
+            <a href="#">
+                <img src="https://d33wubrfki0l68.cloudfront.net/f12156d4905d0aa8a475a3d750a01214f792fe70/fdc9c/images/logo.svg" class="footer-logo">
+            </a>
+            <ul class="footer-text">
+                <li><a href="#about" onclick="closeNav()">
+                    About
+                    <div class="hover-line"></div>
+                </a></li>
+
+                
+                    <li><a href="#games" onclick="closeNav()">
+                        Games
+                        <div class="hover-line"></div>
+                    </a></li>
+
+                <li><a href="#blog" onclick="closeNav()">
+                    Blog
+                    <div class="hover-line"></div>
+                </a></li>
+            </ul>
+            <ul class="footer-yt">
+                <a href="https://www.youtube.com/channel/UC9XMVpCXJiF1B8-qVgY76Ug">
+                    <i class="fab fa-youtube"></i>
+                </a>
+                
+            </ul>
+        </ul>
+
+        <h4 class="copyright-text">&copy; 2021 Blitzy Games</h4>
+    </section>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
